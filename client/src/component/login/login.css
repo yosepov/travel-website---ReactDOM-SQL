@@ -1,0 +1,59 @@
+@import url('https://fonts.googleapis.com/css?family=Blinker|Turret+Road&display=swap');
+.login-box {
+    position: absolute;
+    top: 120;
+    left: 10%;
+    align-items: center;
+    border: 1px solid rgba(124, 124, 124, 0.603);
+    width: 420px;
+    height: 500px;
+    border-radius: 20px;
+}
+
+.login-box>form>input {
+    width: 95%;
+    border: none;
+    background-color: none;
+    height: 40px;
+    margin: 10px;
+    border-bottom: 1px solid rgb(11, 53, 168);
+}
+
+.login-box>form>p {
+    position: relative;
+    left: 80px;
+    font-size: 44px;
+    font-weight: bold;
+    letter-spacing: 3px;
+    color: rgb(5, 56, 5);
+    border-bottom: 3px solid rgb(2, 0, 128);
+    padding-bottom: 5px;
+    width: 150px;
+}
+
+.login-box>form>button {
+    margin-top: 20px;
+    width: 100%;
+    height: 80px;
+    border: none;
+    background-color: rgb(37, 6, 173);
+    color: white;
+    font-size: xx-large;
+    cursor: pointer;
+    transition: 1s;
+}
+
+.login-box>form>button:hover {
+    background-color: rgb(4, 0, 255);
+    color: black;
+    border: 1px solid black;
+    letter-spacing: 5px;
+}
+
+.login-box>a {
+    color: blue;
+    position: relative;
+    left: 80px;
+    padding-top: 10px;
+    display: block;
+}

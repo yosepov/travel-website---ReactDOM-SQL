@@ -1,0 +1,38 @@
+.edit-vacation {
+    width: 100%;
+    align-content: center;
+    align-items: center;
+    text-align: center;
+}
+
+.edit-vacation>input {
+    font-size: large;
+    text-align: center;
+    margin: 30px 0;
+    width: 40%;
+    height: 40px;
+    background: none;
+    border: none;
+    border-bottom: 1px solid rgb(203, 203, 255);
+    color: rgb(93, 93, 255);
+    text-shadow: 0.4px 0.4px 0.4px black;
+    border-radius: 20px;
+}
+
+#editButton {
+    width: 80%;
+    height: 100px;
+    background: none;
+    color: wheat;
+    font-size: xx-large;
+    border: none;
+    border-radius: 10px;
+    margin: 30px;
+    color: blue;
+}
+
+#editButton:hover {
+    cursor: pointer;
+    background: rgb(100, 100, 255);
+    color: white;
+}

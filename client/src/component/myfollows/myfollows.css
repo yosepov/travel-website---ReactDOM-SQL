@@ -1,0 +1,62 @@
+@import url('https://fonts.googleapis.com/css?family=PT+Sans+Narrow|Righteous&display=swap');
+.vacation-card {
+    width: 32%;
+    height: 500px;
+    margin: 0;
+    padding: 0;
+    display: inline-block;
+    overflow: auto;
+    border: none;
+    text-align: center;
+    align-content: center;
+    align-items: center;
+}
+
+.vacation-location {
+    font-family: 'Righteous', cursive;
+    font-size: xx-large;
+    color: white;
+    background: linear-gradient(90deg, rgba(0, 36, 36, 1) 4%, rgba(0, 78, 255, 0.7794468129048494) 47%, rgba(227, 5, 255, 1) 100%);
+}
+
+.vacation-date {
+    font-family: 'PT Sans Narrow', sans-serif;
+    color: white;
+    background: linear-gradient(90deg, rgba(81, 255, 1, 0.397) 0%, rgba(0, 78, 255, 0.7794468129048494) 41%, rgba(5, 255, 122, 1) 100%);
+}
+
+.vacation-description {
+    font-family: 'PT Sans Narrow', sans-serif;
+    color: white;
+    font-size: 18px;
+}
+
+.follow {
+    background: none;
+    width: 140px;
+    height: 30px;
+    background: linear-gradient(90deg, rgba(81, 255, 1, 0.397) 0%, rgba(0, 78, 255, 0.7794468129048494) 41%, rgba(5, 255, 122, 1) 100%);
+    color: white;
+    border: none;
+    border-radius: 10px;
+}
+
+.follow:hover {
+    cursor: pointer;
+    background: green;
+}
+
+.unfollow {
+    background: none;
+    width: 140px;
+    height: 30px;
+    background: linear-gradient(90deg, rgba(0, 36, 36, 1) 4%, rgba(0, 78, 255, 0.7794468129048494) 47%, rgba(227, 5, 255, 1) 100%);
+    color: white;
+    border: none;
+    border-radius: 10px;
+}
+
+.unfollow:hover {
+    cursor: pointer;
+    background: red;
+}

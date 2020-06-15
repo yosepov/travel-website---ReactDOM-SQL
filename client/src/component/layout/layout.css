@@ -1,0 +1,39 @@
+@import url('https://fonts.googleapis.com/css?family=Blinker&display=swap');
+.layout {
+    margin: 0;
+    padding: 0;
+    height: 100%;
+}
+
+header {
+    text-align: center;
+}
+
+header>h1 {
+    font-family: 'Blinker', sans-serif;
+    font-size: xx-large;
+    font-weight: bold;
+    letter-spacing: 10px;
+}
+
+nav>a {
+    margin: 0px 20px;
+    font-family: 'Blinker', sans-serif;
+    font-weight: bold;
+    letter-spacing: 1px;
+    text-decoration: none;
+    color: rgb(0, 80, 126);
+}
+
+header>span {
+    position: absolute;
+    left: 4px;
+    top: 90px;
+    letter-spacing: 1px;
+    color: green;
+    font-family: 'Blinker', sans-serif;
+}
+
+#hello-span {
+    top: 4px;
+}
